@@ -1,5 +1,41 @@
-.venv/
+# Python
 __pycache__/
-node_modules/
+*.py[cod]
+*.pyd
+.Python
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets and environment variables
 .env
-dist/
+.env.*
+!.env.example
+
+# Frontend dependencies and build output
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Local data and generated reports
+*.log
+*.sqlite3
+*.db
+reports/
+exports/
+
+# Editor and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
